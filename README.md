@@ -4,7 +4,7 @@
   <br>
   <img src="https://raw.githubusercontent.com/literaturesynthesis/.github/refs/heads/main/profile/logo-literaturesynthesis_150dpi.png" alt="Logo" width="200">
   <br>
-  Retrieving full text
+  Retrieving full texts
   <br>
   The hardest part of a literature synthesis
   <br>

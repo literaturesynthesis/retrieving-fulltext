@@ -11,11 +11,11 @@
 ::: {.column .information width="68%"}
 
 ::: {.title}
-Quarto template
+Retrieving full texts
 :::
 
 ::: {.subtitle}
-HTML presentation w/ RevealJS framework
+The hardest part of a literature synthesis
 :::
 
 ::: {.date}

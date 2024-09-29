@@ -1,0 +1,191 @@
+## Introduction
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/screening-step.png){width=50%}
+:::
+
+::: {.column width=50%}
+:::
+
+::::
+
+
+
+## Introduction
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/screening-step.png){width=50%}
+:::
+
+::: {.column width=50%}
+<br>
+
+- WOS, Scopus, OpenAlex do not host full text (PDF) only citations
+- Downloading full text is **a stage in itself**
+:::
+
+::::
+
+
+## Two problems
+
+- A **volume** problem: After title/abstract screening, the volume of articles may still be substantial (several hundred or even thousands)
+
+> Finding such a large volume of PDF is an **unusual process** (blacklisting, institution approval, etc.).
+
+
+- An **access** problem: Full text access is often subject to a fee and institute subscriptions decreased over years
+
+> Major obstacle to completeness of systematic map/review.
+
+
+<br>
+
+
+The full text search is often underestimated and rarely mentioned as a step in the review process. However it:
+
+- is very time-consuming
+- is indispensable (influence on the final corpus and therefore on the results)
+- requires a high degree of rigor (renaming, archiving, linking citations to files, etc.)
+
+
+
+## Semi-automatic search
+
+- Zotero search engine
+
+![](images/zotero-searchpdf.png){width=75% fig-align='center'}
+
+
+
+## Manual search
+
+- Institution subscriptions
+- Search on ResearchGate
+
+- Search on Google
+```
+filetype: pdf "Low human interest for the most at-risk reef fishes worldwide"
+```
+
+<br>
+
+> Check that your retrieve the good article
+
+
+
+## Manual search
+
+- Sci-Hub (not so legal, but...)
+
+![](images/scihub-screenshot.png){width=75% fig-align='center'}
+
+> Access denied in France (change your DNS)
+
+
+## Manual search
+
+- Anna's Archive (not so legal, but...)
+
+![](images/anna-archive-screenshot.png){width=75% fig-align='center'}
+
+
+## Enhance Zotero search engines
+
+- Edit the file located in: `{ Zotero Path }/locate/engines.json` and add:
+
+```
+{
+	"name": "Sci-Hub DOI",
+	"alias": "Sci-Hub DOI",
+	"icon": "http://sci-hub.se/favicon.ico",
+	"_urlTemplate": "http://sci-hub.se/{z:DOI}",
+	"description": "SciHub Lookup",
+	"hidden": false,
+	"_urlParams": [],
+	"_urlNamespaces": {
+		"z": "http://www.zotero.org/namespaces/openSearch#"
+	},
+	"_iconSourceURI": "http://sci-hub.se/favicon.ico"
+}
+```
+
+<br>
+
+> More lookup engines: <https://github.com/bwiernik/zotero-tools/blob/master/engines.json>
+
+
+## Request full text
+
+- Request full text on ResearchGate
+- Contact the corresponding author
+
+
+## Non-digitized documents
+
+- On-site consultation
+- Inter-library loan
+- Digitization
+
+
+
+## Rigorous follow-up
+
+![](images/fulltext-followup.png){width=75% fig-align='center'}
+
+
+## Reporting
+
+![](images/fulltext-reporting.png){width=50% fig-align='center'}
+
+
+## Missing full texts
+
+- Definitely not free
+- Not available on Sci-Hub
+- No response from authors on ResearchGate
+- Not published at all
+
+<br>
+
+> Loss of completeness for your map/review => **Limit of the exercise**
+
+
+## Missing full texts
+
+**How many?**
+
+- As few as possible
+- No written EEC/EEJ rule
+- < 10%
+
+<br>
+
+![](images/fulltext-proportion.png){width=75% fig-align='center'}
+
+
+## Missing full texts
+
+:::: {.columns}
+::: {.column width=50%}
+- Discuss it as a limitation in the "Limitations of the map/review" section
+- Provide as much justification as possible (in-depth research, etc.)
+- Include the list of articles concerned as an additional file
+:::
+
+::: {.column width=50%}
+![](images/fulltext-limitation.png){width=100%}
+
+::: {.small}
+_Source:_ [Evidence of the impact of noise pollution on biodiversity: A systematic map](https://environmentalevidencejournal.biomedcentral.com/articles/10.1186/s13750-020-00202-y)
+:::
+:::
+::::
+
+
+# Good luck!
+

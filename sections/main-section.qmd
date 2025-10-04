@@ -24,7 +24,7 @@
 ::: {.column width=50%}
 <br>
 
-- WOS, Scopus, OpenAlex do not host full text (PDF) only citations
+- Web of Science, Scopus, OpenAlex do not host full text (PDF), only metadata
 - Downloading full text is **a stage in itself**
 :::
 
@@ -74,7 +74,7 @@ filetype: pdf "Low human interest for the most at-risk reef fishes worldwide"
 
 <br>
 
-> Check that your retrieve the good article
+> Check that you retrieve the good articles
 
 
 
@@ -117,6 +117,13 @@ filetype: pdf "Low human interest for the most at-risk reef fishes worldwide"
 <br>
 
 > More lookup engines: <https://github.com/bwiernik/zotero-tools/blob/master/engines.json>
+
+<br/>
+
+. . .
+
+- Try the [SciPDF](https://github.com/syt2/zotero-scipdf) plugin for Zotero
+
 
 
 ## Request full text

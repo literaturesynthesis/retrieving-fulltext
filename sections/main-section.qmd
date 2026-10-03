@@ -37,6 +37,7 @@
 
 > Finding such a large volume of PDF is an **unusual process** (blacklisting, institution approval, etc.).
 
+. . .
 
 - An **access** problem: Full text access is often subject to a fee and institute subscriptions decreased over years
 
@@ -45,6 +46,7 @@
 
 <br>
 
+. . .
 
 The full text search is often underestimated and rarely mentioned as a step in the review process. However it:
 
